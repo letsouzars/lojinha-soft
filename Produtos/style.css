@@ -1,0 +1,118 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spring';
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: Spring;
+    src: url(OpenSans-Regular.ttf);
+}
+
+/* HEADER */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#carrinho-icon img {
+    width: 50px;
+}
+
+#header,
+#main {
+    margin: 0 100px;
+}
+
+#header {
+    padding: 50px;
+}
+
+#carrinho-icon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.produto-linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.produtos {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.produtos img {
+    width: 150px;
+}
+
+.produto button {
+    background-color: pink;
+    border-radius: 3px;
+    padding: 8px 16px;
+    color: black;
+    border: solid rgb(249, 158, 175) 1px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;         
+    align-items: center;
+    width: 230px;
+    height: 280px;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid pink;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+button {
+    cursor: pointer
+}
+
+.logo ,span {
+    color: rgba(244, 141, 157, 0.874);
+    font-size: 20px;
+
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 6px 15px;
+    width: 500px;
+
+}
+
+#buscar button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+.limparCarrinho {
+    background-color: pink;
+    border-radius: 3px;
+    padding: 8px 16px;
+    color: black;
+    border: solid rgb(249, 158, 175) 1px;
+}
